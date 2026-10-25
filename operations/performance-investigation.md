@@ -17,6 +17,7 @@ Created a non-clustered index on the filtering column to improve data retrieval 
 ```sql
 CREATE NONCLUSTERED INDEX IX_Customer_LastName 
 ON SalesLT.Customer (LastName);
+```
 
 ## 4. Post-Optimization Results (After)
 - **Updated Metrics:**
